@@ -1,0 +1,2 @@
+(this["webpackJsonpintegracao-remai-2020"]=this["webpackJsonpintegracao-remai-2020"]||[]).push([[0],{3:function(e,n,t){e.exports=t(4)},4:function(e,n,t){"use strict";t.r(n);var a=t(0),o=t.n(a),r=t(2),c=t.n(r);t(9);c.a.render(o.a.createElement("p",null,"Ol\xe1, Mundo!"),document.getElementById("root"))},9:function(e,n,t){}},[[3,1,2]]]);
+//# sourceMappingURL=main.71face41.chunk.js.map
