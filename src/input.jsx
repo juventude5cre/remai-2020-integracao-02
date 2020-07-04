@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
+import './input.css'
 
 
-export class Input extends Component {
+export class GuessInput extends Component {
   constructor(props) {
     super(props)
     const { word, index } = props
@@ -12,9 +13,13 @@ export class Input extends Component {
   render() {
     const { index } = this
     return (
-      <div>
-        <label>{index}.</label>
-        <input type="text" />
+      <div className="guess container">
+        <div className="guess label">
+          <p>{index}.</p>
+        </div>
+        <div className="guess input">
+          <input type="text" />
+        </div>
       </div>
     )
   }
