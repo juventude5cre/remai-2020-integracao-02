@@ -9,29 +9,77 @@ export class App extends Component {
     super(props)
     const { words } = data
     this.state = {
-      check: words.map(_ => false),
-
+      guesses: words.map(_ => ""),
+      check: words.map(_ => "typing")
     }
   }
 
-  renderInput(w, i) {
-    return <GuessInput word={w} index={i + 1} />
+  check() {
+    const { state } = this
+    const { words } = data
+    let allOK = true
+    const check = [], guesses = []
+    state.guesses.forEach((g, i) => {
+      const w = words[i]
+      if (g === w) {
+        check[i] = "ok"
+        guesses[i] = g
+      } else {
+        check[i] = "wrong"
+        guesses[i] = ""
+        allOK = false
+      }
+    })
+    this.setState({ check, guesses })
+    if (allOK)
+      this.trigger()
+    else
+      setTimeout(() => {
+        const check = this.state.check.map(c => c === "ok" ? "ok" : "typing")
+        this.setState({ ...this.state, check })
+      }, 2000)
+  }
+
+  handleInputChange(v, i) {
+    const { state } = this
+    const guesses = [...state.guesses]
+    const check = [...state.check]
+    guesses[i] = v
+    check[i] = "typing"
+    this.setState({ check, guesses })
+  }
+
+  trigger() {
+    alert("PARABAINS!")
+  }
+
+  renderInput(g, i) {
+    const { check } = this.state
+    return <GuessInput
+      value={g}
+      check={check[i]}
+      index={i + 1}
+      onChange={v => this.handleInputChange(v, i)}
+      key={i}
+    />
   }
 
   render() {
-    const { title, text, words } = data
+    const { title, text } = data
+    const { guesses } = this.state
     return (
-      <div class="app container">
-        <div class="app spacer" />
-        <div class="app" id="pane">
+      <div className="app container">
+        <div className="app spacer" />
+        <div className="app" id="pane">
           <h1>{title}</h1>
           <p>{text}</p>
-          <button type="button" className="app" id="check-button" onClick={() => null}>
+          <button type="button" className="app"
+            id="check-button" onClick={() => this.check()}>
             Verificar
           </button>
-          {words.map((w, i) => this.renderInput(w, i))}
+          {guesses.map((g, i) => this.renderInput(g, i))}
         </div>
-        <div class="app spacer" />
+        <div className="app spacer" />
       </div>
     )
   }

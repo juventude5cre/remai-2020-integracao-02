@@ -3,22 +3,18 @@ import './input.css'
 
 
 export class GuessInput extends Component {
-  constructor(props) {
-    super(props)
-    const { word, index } = props
-    this.word = word
-    this.index = index
-  }
-
   render() {
-    const { index } = this
+    const { index, value, onChange, check } = this.props
+    const placeholder = check === "wrong" ? "Palavra errada!" : "" 
     return (
-      <div className="guess container">
-        <div className="guess label">
-          <p>{index}.</p>
+      <div className={"guess container " + check}>
+        <div className={"guess label " + check}>
+          <p>{index}:</p>
         </div>
-        <div className="guess input">
-          <input type="text" />
+        <div className={"guess input " + check}>
+          <input type="text" value={value}
+            placeholder={placeholder}
+            onChange={(e) => onChange(e.target.value)} />
         </div>
       </div>
     )

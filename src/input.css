@@ -16,9 +16,18 @@
 }
 
 .guess.input input {
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 5px;
   width: 80%;
   height: 2em;
-  padding: 8px;
+  padding: 0.5em;
+  transition: border 0.5s;
+}
+
+.guess.input.ok input {
+  border: 2px solid rgb(0, 216, 0);
+}
+
+.guess.input.wrong input {
+  border: 2px solid #FF0000;
 }
