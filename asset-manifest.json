@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/remai-2020-integracao-02/static/css/main.e5ca111e.chunk.css",
-    "main.js": "/remai-2020-integracao-02/static/js/main.71face41.chunk.js",
-    "main.js.map": "/remai-2020-integracao-02/static/js/main.71face41.chunk.js.map",
+    "main.css": "/remai-2020-integracao-02/static/css/main.818bd810.chunk.css",
+    "main.js": "/remai-2020-integracao-02/static/js/main.2849321f.chunk.js",
+    "main.js.map": "/remai-2020-integracao-02/static/js/main.2849321f.chunk.js.map",
     "runtime-main.js": "/remai-2020-integracao-02/static/js/runtime-main.a59b7e2b.js",
     "runtime-main.js.map": "/remai-2020-integracao-02/static/js/runtime-main.a59b7e2b.js.map",
-    "static/js/2.40a571d7.chunk.js": "/remai-2020-integracao-02/static/js/2.40a571d7.chunk.js",
-    "static/js/2.40a571d7.chunk.js.map": "/remai-2020-integracao-02/static/js/2.40a571d7.chunk.js.map",
+    "static/js/2.c96100a6.chunk.js": "/remai-2020-integracao-02/static/js/2.c96100a6.chunk.js",
+    "static/js/2.c96100a6.chunk.js.map": "/remai-2020-integracao-02/static/js/2.c96100a6.chunk.js.map",
     "index.html": "/remai-2020-integracao-02/index.html",
-    "precache-manifest.f0e5a214cffbf4a833fdb359b61f0166.js": "/remai-2020-integracao-02/precache-manifest.f0e5a214cffbf4a833fdb359b61f0166.js",
+    "precache-manifest.1a21d7363adfd59d6cbcee07264ed3b2.js": "/remai-2020-integracao-02/precache-manifest.1a21d7363adfd59d6cbcee07264ed3b2.js",
     "service-worker.js": "/remai-2020-integracao-02/service-worker.js",
-    "static/css/main.e5ca111e.chunk.css.map": "/remai-2020-integracao-02/static/css/main.e5ca111e.chunk.css.map",
-    "static/js/2.40a571d7.chunk.js.LICENSE.txt": "/remai-2020-integracao-02/static/js/2.40a571d7.chunk.js.LICENSE.txt"
+    "static/css/main.818bd810.chunk.css.map": "/remai-2020-integracao-02/static/css/main.818bd810.chunk.css.map",
+    "static/js/2.c96100a6.chunk.js.LICENSE.txt": "/remai-2020-integracao-02/static/js/2.c96100a6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/remai-2020-integracao-02/static/media/bg.35a10b81.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a59b7e2b.js",
-    "static/js/2.40a571d7.chunk.js",
-    "static/css/main.e5ca111e.chunk.css",
-    "static/js/main.71face41.chunk.js"
+    "static/js/2.c96100a6.chunk.js",
+    "static/css/main.818bd810.chunk.css",
+    "static/js/main.2849321f.chunk.js"
   ]
 }
