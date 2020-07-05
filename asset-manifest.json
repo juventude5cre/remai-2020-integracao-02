@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/remai-2020-integracao-02/static/css/main.f3012209.chunk.css",
-    "main.js": "/remai-2020-integracao-02/static/js/main.2bbb05c2.chunk.js",
-    "main.js.map": "/remai-2020-integracao-02/static/js/main.2bbb05c2.chunk.js.map",
+    "main.css": "/remai-2020-integracao-02/static/css/main.ac3a88c0.chunk.css",
+    "main.js": "/remai-2020-integracao-02/static/js/main.c70fcd48.chunk.js",
+    "main.js.map": "/remai-2020-integracao-02/static/js/main.c70fcd48.chunk.js.map",
     "runtime-main.js": "/remai-2020-integracao-02/static/js/runtime-main.a59b7e2b.js",
     "runtime-main.js.map": "/remai-2020-integracao-02/static/js/runtime-main.a59b7e2b.js.map",
-    "static/js/2.fc8a56c9.chunk.js": "/remai-2020-integracao-02/static/js/2.fc8a56c9.chunk.js",
-    "static/js/2.fc8a56c9.chunk.js.map": "/remai-2020-integracao-02/static/js/2.fc8a56c9.chunk.js.map",
+    "static/js/2.e4e07d2c.chunk.js": "/remai-2020-integracao-02/static/js/2.e4e07d2c.chunk.js",
+    "static/js/2.e4e07d2c.chunk.js.map": "/remai-2020-integracao-02/static/js/2.e4e07d2c.chunk.js.map",
     "index.html": "/remai-2020-integracao-02/index.html",
-    "precache-manifest.6da6e2a68f6a5ab37f255631d9e7ab3d.js": "/remai-2020-integracao-02/precache-manifest.6da6e2a68f6a5ab37f255631d9e7ab3d.js",
+    "precache-manifest.cecab69175828ae2b5ba99582fe404ee.js": "/remai-2020-integracao-02/precache-manifest.cecab69175828ae2b5ba99582fe404ee.js",
     "service-worker.js": "/remai-2020-integracao-02/service-worker.js",
-    "static/css/main.f3012209.chunk.css.map": "/remai-2020-integracao-02/static/css/main.f3012209.chunk.css.map",
-    "static/js/2.fc8a56c9.chunk.js.LICENSE.txt": "/remai-2020-integracao-02/static/js/2.fc8a56c9.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/remai-2020-integracao-02/static/media/bg.35a10b81.jpg"
+    "static/css/main.ac3a88c0.chunk.css.map": "/remai-2020-integracao-02/static/css/main.ac3a88c0.chunk.css.map",
+    "static/js/2.e4e07d2c.chunk.js.LICENSE.txt": "/remai-2020-integracao-02/static/js/2.e4e07d2c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/remai-2020-integracao-02/static/media/bg.35a10b81.jpg",
+    "static/media/secret.css": "/remai-2020-integracao-02/static/media/secret.602e4755.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a59b7e2b.js",
-    "static/js/2.fc8a56c9.chunk.js",
-    "static/css/main.f3012209.chunk.css",
-    "static/js/main.2bbb05c2.chunk.js"
+    "static/js/2.e4e07d2c.chunk.js",
+    "static/css/main.ac3a88c0.chunk.css",
+    "static/js/main.c70fcd48.chunk.js"
   ]
 }
