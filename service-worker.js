@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/remai-2020-integracao-02/precache-manifest.cecab69175828ae2b5ba99582fe404ee.js"
+  "/remai-2020-integracao-02/precache-manifest.7726da801a85e8df352a37191551f6d9.js"
 );
 
 self.addEventListener('message', (event) => {
