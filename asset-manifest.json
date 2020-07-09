@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/remai-2020-integracao-02/static/css/main.f5b2ca10.chunk.css",
-    "main.js": "/remai-2020-integracao-02/static/js/main.0c31115c.chunk.js",
-    "main.js.map": "/remai-2020-integracao-02/static/js/main.0c31115c.chunk.js.map",
+    "main.js": "/remai-2020-integracao-02/static/js/main.3a692d00.chunk.js",
+    "main.js.map": "/remai-2020-integracao-02/static/js/main.3a692d00.chunk.js.map",
     "runtime-main.js": "/remai-2020-integracao-02/static/js/runtime-main.a59b7e2b.js",
     "runtime-main.js.map": "/remai-2020-integracao-02/static/js/runtime-main.a59b7e2b.js.map",
     "static/js/2.e4e07d2c.chunk.js": "/remai-2020-integracao-02/static/js/2.e4e07d2c.chunk.js",
     "static/js/2.e4e07d2c.chunk.js.map": "/remai-2020-integracao-02/static/js/2.e4e07d2c.chunk.js.map",
     "index.html": "/remai-2020-integracao-02/index.html",
-    "precache-manifest.683aee603a06d081f1258a991e8a8e61.js": "/remai-2020-integracao-02/precache-manifest.683aee603a06d081f1258a991e8a8e61.js",
+    "precache-manifest.5e50969580d1b03c96db1b619c45a2ac.js": "/remai-2020-integracao-02/precache-manifest.5e50969580d1b03c96db1b619c45a2ac.js",
     "service-worker.js": "/remai-2020-integracao-02/service-worker.js",
     "static/css/main.f5b2ca10.chunk.css.map": "/remai-2020-integracao-02/static/css/main.f5b2ca10.chunk.css.map",
     "static/js/2.e4e07d2c.chunk.js.LICENSE.txt": "/remai-2020-integracao-02/static/js/2.e4e07d2c.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.a59b7e2b.js",
     "static/js/2.e4e07d2c.chunk.js",
     "static/css/main.f5b2ca10.chunk.css",
-    "static/js/main.0c31115c.chunk.js"
+    "static/js/main.3a692d00.chunk.js"
   ]
 }
