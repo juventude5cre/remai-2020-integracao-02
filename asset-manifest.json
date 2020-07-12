@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/remai-2020-integracao-02/static/css/main.f5b2ca10.chunk.css",
+    "main.css": "/remai-2020-integracao-02/static/css/main.ccdd269e.chunk.css",
     "main.js": "/remai-2020-integracao-02/static/js/main.3a692d00.chunk.js",
     "main.js.map": "/remai-2020-integracao-02/static/js/main.3a692d00.chunk.js.map",
     "runtime-main.js": "/remai-2020-integracao-02/static/js/runtime-main.a59b7e2b.js",
@@ -8,17 +8,17 @@
     "static/js/2.e4e07d2c.chunk.js": "/remai-2020-integracao-02/static/js/2.e4e07d2c.chunk.js",
     "static/js/2.e4e07d2c.chunk.js.map": "/remai-2020-integracao-02/static/js/2.e4e07d2c.chunk.js.map",
     "index.html": "/remai-2020-integracao-02/index.html",
-    "precache-manifest.5e50969580d1b03c96db1b619c45a2ac.js": "/remai-2020-integracao-02/precache-manifest.5e50969580d1b03c96db1b619c45a2ac.js",
+    "precache-manifest.0a2a9aa3448837f2b68c1ea948b1eb88.js": "/remai-2020-integracao-02/precache-manifest.0a2a9aa3448837f2b68c1ea948b1eb88.js",
     "service-worker.js": "/remai-2020-integracao-02/service-worker.js",
-    "static/css/main.f5b2ca10.chunk.css.map": "/remai-2020-integracao-02/static/css/main.f5b2ca10.chunk.css.map",
+    "static/css/main.ccdd269e.chunk.css.map": "/remai-2020-integracao-02/static/css/main.ccdd269e.chunk.css.map",
     "static/js/2.e4e07d2c.chunk.js.LICENSE.txt": "/remai-2020-integracao-02/static/js/2.e4e07d2c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/remai-2020-integracao-02/static/media/bg.115bf675.jpg",
-    "static/media/secret.css": "/remai-2020-integracao-02/static/media/secret.315f8a84.jpg"
+    "static/media/secret.css": "/remai-2020-integracao-02/static/media/secret.8c551050.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a59b7e2b.js",
     "static/js/2.e4e07d2c.chunk.js",
-    "static/css/main.f5b2ca10.chunk.css",
+    "static/css/main.ccdd269e.chunk.css",
     "static/js/main.3a692d00.chunk.js"
   ]
 }
